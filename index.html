@@ -100,41 +100,40 @@
             <ul class="news__list">
               <li class="news__item">
                 <date class="news__date">Декабрь 2019</date>
-                <h2 class="news__text">Дешевые путевки на Новый Год!</h2>
-                <h3 class="news__text">Проведи новый год в Тайланде</h3>
+                <h2 class="news__text-title">Дешевые путевки на Новый Год!</h2>
+                <h3 class="news__text-offer">Проведи новый год в Тайланде</h3>
                 <!-- Здесь должен быть бэкграунд -->
               </li>
               <li class="news__item">
                 <date class="news__date">Декабрь 2019</date>
-                <h2 class="news__text">Акция для серфенгистов!</h2>
-                <h3 class="news__text">В сезон больших волн на путевку в Тайланд на остров серфенгистов. Удачного пути!</h3>
+                <h2 class="news__text-title">Акция для серфенгистов!</h2>
+                <h3 class="news__text-offer">В сезон больших волн на путевку в Тайланд на остров серфенгистов. Удачного пути!</h3>
                 <!-- Здесь должен быть бэкграунд --> 
             </ul>
+            <!-- Поправил классы в заголовках -->
             <nav class="pagination">
               <ul class="pagination__list">
                 <div class="paginator__display">Страница 1 из 7</div>
-                  <li class="pagination__item"><a href="#">1</a></li>
-                  <li class="pagination__item"><a href="#">2</a></li>
-                  <li class="pagination__item"><a href="#">3</a></li>
-                  <li class="pagination__item"><a href="#">4</a></li>
-                  <li class="pagination__item"><a href="#">5</a></li>
-                  <li class="pagination__item"><a href="#">6</a></li>
-                  <li class="pagination__item"><a href="#">7</a></li>
+                  <li class="pagination__item"><a class="pagination__link" href="#">1</a></li>
+                  <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+                  <li class="pagination__item"><a class="pagination__link" href="#">3</a></li>
+                  <li class="pagination__item"><a class="pagination__link" href="#">4</a></li>
+                  <li class="pagination__item"><a class="pagination__link" href="#">5</a></li>
+                  <li class="pagination__item"><a class="pagination__link" href="#">6</a></li>
+                  <li class="pagination__item"><a class="pagination__link" href="#">7</a></li>
+                  <!-- Добавил классы к каждой ссылке-->
               </ul>
           </nav>
           </div>
         </section>
         <section class="about">
-          <div class="about__list">
-            <div class="about__item">
-              <img src="" alt="Картина сзади" class="about__item-img--back">
-            </div>
-            <div class="about__item">
-              <img src="" alt="Картина спереди" class="about__item-img--front">
-              <h2 class="about__text--dark">О нас</h2>
-              <p class="about__text"></p>
-              <a href="#" class="button">Подробнее</a>
-            </div>
+          <div class="about__container container">
+              <img src="" alt="Картина сзади" class="about__container-img">
+              <div class="about__content">
+                  <div class="about__content-top" ><h2 class="about__content-top-title">О нас</h2></div>
+                  <div class="about__content-bottom"> <h2 class="about__content-bottom-text"> Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях</h2></div>
+                  <a href="#" class="button">Подробнее</a>
+              </div>
           </div>
         </section>
         <footer class="footer">
@@ -149,31 +148,32 @@
               <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
-          </div>
-          <div class="social-icons">
+              <div class="social-icons">
             <ul class="social-icons__list">
             <li class="social-icon__item">
               <a class="social-icon-telegram" href="#">
-              <img src="" alt="Иконка телеграм">
+              <img class="social-icon-telegram__img" src="" alt="Иконка телеграм">
             </a></li>
             <li class="social-icon__item">
               <a class="social-icon-vk" href="#">
-              <img src="" alt="Иконка вконтакте">
+              <img class="social-icon-vk__img" src="" alt="Иконка вконтакте">
             </a></li>
             <li class="social-icon__item">
               <a class="social-icon-fb" href="#">
-              <img src="" alt="Иконка фейсбук">
+              <img class="social-icon-fb__img" src="" alt="Иконка фейсбук">
             </a></li>
             <li class="social-icon__item">
               <a class="social-icon-instagram" href="#">
-              <img src="" alt="Иконка инстаграм">
+              <img class="social-icon-instagram__img" src="" alt="Иконка инстаграм">
             </a></li>
           </ul>
-        </div>
-          <address class="contacts">
-            <p>Бесплатный звонок по России</p>
-            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          </address>
+            </div>
+            <address class="contacts">
+              <p class="contacts__text">Бесплатный звонок по России</p>
+              <a class="contacts__tel" href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            </address>
+            <!-- Перенес социалки и контакты в футер, добавил классы-->
+          </div>
           </div>
         </footer>
       </main>
