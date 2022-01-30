@@ -1,0 +1,67 @@
+.header{
+    padding-top: 26px;
+    margin-bottom: 140px;
+    height: 70px;
+    position: relative;
+}
+
+.header__container{
+    position: relative;
+}
+
+.logo, .menu, .menu__item{
+    display: inline-block;
+}
+
+.logo, menu, .contacts{
+    position: absolute;
+}
+
+.logo{
+    margin-right: 79px;
+    left: 0;
+    position: relative;
+}
+
+.menu{
+    left: 165px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.menu__item{
+    margin-right: 54px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.contacts{
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.contacts__phone{
+    font-style: normal;
+    font-size: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.contacts__schedule{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #fff;
+    text-align: right;
+}
+
