@@ -6,7 +6,6 @@
 .offers__title{
   display: inline-block;
   width: 362px;
-  background: #fff;
   margin-right: 10px;  
 }
 
@@ -16,6 +15,9 @@
   padding-bottom: 26px;
   color: #000;
   min-height: 305px;
+  font-weight: normal;
+  background: #fff;
+
 }
 
 .offers__title{
@@ -38,10 +40,23 @@
 .offers__text{
   font-size: 14px;
   font-style: normal;
+  line-height: 21px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #303030;
+  font-weight: 300;
 }
 .offers__feature{
   display: inline-block;
   vertical-align: top;
-  width: 115px;
+  /* width: 115px; */
   margin-right: 36px;
+}
+/* .offers__feature:before{
+  content: url(../../img/calendar.png);
+  display: inline-block;
+} */
+
+.offers__feature-img{
+display: inline;
 }
