@@ -100,6 +100,7 @@ img{
   display: block;
   max-width: 168px;
   max-height: 55px;
+  text-align: center;
 }
 
 .button:hover{
@@ -111,12 +112,16 @@ img{
   background: transparent;
   color: #da0100;
   border: 1px solid;
+  text-align: center;
+
 }
 
 .button--light:hover{
   background: #da0100;
   border: 1px solid #da0100;
   color: #fff;
+  text-align: center;
+
 }
 
 .title{
