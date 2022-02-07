@@ -104,10 +104,10 @@
     content: "/ ";
     color: #999999;
 } */
-.breadcrumbs__item:last-child:after{
+/* .breadcrumbs__item:last-child:after{
     display: none;
 
-}
+} */
 
 .breadcrumbs__link{
     color: #9A9A9A;
