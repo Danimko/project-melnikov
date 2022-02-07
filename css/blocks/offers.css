@@ -75,3 +75,10 @@ margin-right: 12px;
   justify-content: space-around;
   margin-left: -20px;
 }
+
+.offers__content .button{
+  height: 55px;
+  width: 135px;
+  text-align: center;
+  padding: 18px;
+}

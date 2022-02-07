@@ -1,9 +1,10 @@
 .header{
-    padding-top: 45px;
-    margin-bottom: 30px;
+    padding-top: 26px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .header__col{
@@ -35,6 +36,11 @@
    
 } */
 
+.menu__link{
+    font-size: 14px;
+
+
+}
 .contacts__phone{
     font-style: normal;
     font-size: normal;
@@ -62,13 +68,14 @@
 }
 /* services page */
 .top-line{
-    min-height: 415px;
+    min-height: 412px;
     display: flex;
     flex-direction: column; 
     width: 100%;
     background: url("../../img/headline\ 1.png") ;
     background-repeat: no-repeat;
     margin-bottom: 0;
+    align-items: center;
  
   }
 
@@ -85,18 +92,19 @@
     line-height: 1;
     font-weight: bold;
 }
+
 .breadcrumbs__list{
     display: flex;
     align-items: center;
-
 }
 
 .breadcrumbs__item{
     display: flex;
     align-items: center;
+    text-decoration-line: underline;
 }
 .breadcrumbs__item--active .breadcrumbs__link{
-    text-decoration: none;
+    text-decoration-line: underline;
     color: #999999;
 
 }
@@ -116,4 +124,5 @@
 }
 .breadcrumbs__slash{
     margin-right: 6px;
+    margin-left: 6px;
 }

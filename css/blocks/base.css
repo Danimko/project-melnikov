@@ -167,4 +167,6 @@ section{
 }
 
 /* services page  */
-
+.menu__link:hover{
+  color: #DA0100;
+}
