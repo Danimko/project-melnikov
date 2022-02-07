@@ -20,6 +20,7 @@
 .footer__col--align--right{
   display: flex;
   align-items: flex-end;
+  margin-top: -15px;
 }
 .contacts__text-footer{
   font-size: 11px;
