@@ -1,9 +1,7 @@
 .hello{
-  /* width: 511px; */
-  /* margin: 0 0 138px 389px; */
-  /* margin-left: 389px; */
   max-width: 1141px;
-  /* margin-bottom: 138px; */
+  align-items: flex-start;
+  margin-top: 138px;
 
 }
 
@@ -16,4 +14,11 @@
   font-style: 18px;
   margin-top: 18px;
   margin-bottom: 20px;
+}
+
+.hello__container{
+  display: flex;
+  flex-direction: column;
+  /* min-height: 600px; */
+
 }

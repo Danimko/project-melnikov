@@ -1,11 +1,8 @@
 .news__item{
 width: 557px;
-display: inline-block;
-vertical-align: top;
 position: relative;
 border-radius: 4px ;
 overflow: hidden;
-margin-right: 11px;
 
 
 }
@@ -39,13 +36,11 @@ margin-right: 11px;
 
 .news__date{
   font-size: 14px;
-  margin-bottom: 20px;
 }
 
 .news__title{
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 5px;
 }
 
 .news__offer{
@@ -55,10 +50,19 @@ margin-right: 11px;
 .pagination{
   text-align: center;
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pagination--black{
+  color: #000;
+
 
 }
 .pagination__display, .pagination__list{
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
 
 }
@@ -67,8 +71,13 @@ margin-right: 11px;
 
 }
 .pagination__item{
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
+  text-align: center;
+}
+.pagination__list{
+  display: flex;
+  align-items: center;
 }
 
 .pagination__link{
@@ -85,4 +94,8 @@ margin-right: 11px;
 .news{
   margin-bottom: 138px;
   
+}
+.news__list{
+  display: flex;
+  justify-content: space-between;
 }

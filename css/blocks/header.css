@@ -1,49 +1,39 @@
 .header{
-    padding-top: 26px;
-    margin-bottom: 140px;
-    height: 70px;
-    position: relative;
+    padding-top: 45px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.header__col{
+    display: flex;
+    align-items: center;
+}
+.header__col--align--right{
+    align-items: flex-end;
+}
 .header__container{
     position: relative;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-.logo, .menu, .menu__item{
-    display: inline-block;
-}
-
-.logo, menu, .contacts{
-    position: absolute;
-}
-
-.logo{
-    margin-right: 79px;
-    left: 0;
-    position: relative;
-}
-
-.menu{
-    left: 165px;
-    top: 50%;
-    transform: translate(0%, -50%);
 }
 
 .menu__item{
     margin-right: 54px;
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
-.menu__item:last-child{
+/* .menu__item:last-child{
     margin-right: 0;
 }
 
 .contacts{
-    right: 0;
-    top: 0;
-    position: absolute;
-}
+   
+} */
 
 .contacts__phone{
     font-style: normal;
@@ -52,7 +42,7 @@
     font-size: 26px;
     line-height: 35px;
     color: #fff;
-    margin-bottom: 4px;
+    /* margin-bottom: 4px; */
 }
 
 .contacts__schedule{
@@ -65,3 +55,62 @@
     text-align: right;
 }
 
+.logo{
+    display: block;
+    margin-right: 100px;
+
+}
+/* services page */
+.top-line{
+    min-height: 415px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    background: url("../../img/headline1.png") ;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+ 
+  }
+
+.top-line__container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.page-title{
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
+.breadcrumbs__list{
+    display: flex;
+    align-items: center;
+
+}
+
+.breadcrumbs__item{
+    display: flex;
+    align-items: center;
+}
+.breadcrumbs__item--active .breadcrumbs__link{
+    text-decoration: none;
+    color: #999999;
+
+}
+.breadcrumbs__item::after{
+    content: "/ ";
+    color: #999999;
+}
+.breadcrumbs__item:last-child:after{
+    display: none;
+
+}
+
+.breadcrumbs__link{
+    color: #9A9A9A;
+    font-size: 14px;
+
+}

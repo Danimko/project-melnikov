@@ -4,9 +4,8 @@
 }
 
 .offers__title{
-  display: inline-block;
-  width: 362px;
-  margin-right: 10px;  
+  width: calc(100% / 3 - 18px);
+
 }
 
 .offers__content{
@@ -35,6 +34,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #666666;
+  margin-top: 5px;
 }
 
 .offers__text{
@@ -47,10 +47,13 @@
   font-weight: 300;
 }
 .offers__feature{
-  display: inline-block;
-  vertical-align: top;
+  /* display: inline-block;
+  vertical-align: top; */
   /* width: 115px; */
-  margin-right: 36px;
+  /* margin-right: 36px; */
+  display: flex;
+  justify-content: space-between;
+
 }
 /* .offers__feature:before{
   content: url(../../img/calendar.png);
@@ -59,4 +62,16 @@
 
 .offers__feature-img{
 display: inline;
+margin-right: 12px;
+}
+
+.offers__list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__features{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
 }

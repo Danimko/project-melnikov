@@ -3,38 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <title>Главная страница</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/main.css">
 </head>
-<div>
+<body>
   <div class="wrapper wrapper--main">
   <div class="wrapper__content">
     <header class="header">
       <div class="container header__container">
-        <a href="#" class="logo">
-          <img class="logo__img" src="./img/logo.png" alt="Логотип">
-        </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-          <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        <p class="contacts__schedule">График работы</p>
-      </address>
+        <div class="header__col">
+          <a href="#" class="logo">
+            <img class="logo__img" src="./img/logo.png" alt="Логотип">
+          </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+          </ul>
+        </nav>
+        </div>
+        <div class="header__col header__col--align--right">
+          <address class="contacts">
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            <p class="contacts__schedule">График работы</p>
+          </address>
+        </div>
       </div>
     </header>
       <div class="maincontent">
         <section class="hello">
           <div class="container hello__container">
-            <h1 class="hello__title">Авторские туры<br> по Азии</h1>
+            <h1 class="hello__title">Авторские<br> туры по Азии</h1>
             <div class="hello__text">Открой для себя Азию</div>
             <a href="#" class="button">Подробнее</a>
           </div>
@@ -147,44 +152,47 @@
         </section>
         <footer class="footer">
           <div class="container footer__container">
-            <a href="#" class="logo" >
-              <img class="logo__img" src="./img/logo.png" alt="Логотип">
-            </a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
-              <li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
-              <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
-            </ul>
-          </nav>
-            <ul class="social">
-            <li class="social__item">
-              <a class="social__link" href="#">
-              <img class="social__img" src="./img/telegram.png" alt="Иконка телеграм">
-            </a></li>
-            <li class="social__item">
-              <a class="social__link" href="#">
-              <img class="social__img" src="./img/vk.png" alt="Иконка вконтакте">
-            </a></li>
-            <li class="social__item">
-              <a class="social__link" href="#">
-              <img class="social__img" src="./img/fb.png" alt="Иконка фейсбук">
-            </a></li>
-            <li class="social__item">
-              <a class="social__link" href="#">
-              <img class="social__img" src="./img/instagram.png" alt="Иконка инстаграм">
-            </a></li>
-          </ul>
-            <address class="contacts">
-              <p class="contacts__text-footer">Бесплатный звонок по России</p>
-              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            </address>
+            <div class="footer__col">
+              <a href="#" class="logo" >
+                <img class="logo__img" src="./img/logo.png" alt="Логотип">
+              </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
+              </ul>
+            </nav>
+            </div>
+            <div class="footer__col--align--right">
+              <ul class="social">
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                  <img class="social__img" src="./img/telegram.png" alt="Иконка телеграм">
+                </a></li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                  <img class="social__img" src="./img/vk.png" alt="Иконка вконтакте">
+                </a></li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                  <img class="social__img" src="./img/fb.png" alt="Иконка фейсбук">
+                </a></li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                  <img class="social__img" src="./img/instagram.png" alt="Иконка инстаграм">
+                </a></li>
+              </ul>
+                <address class="contacts">
+                  <p class="contacts__text-footer">Бесплатный звонок по России</p>
+                  <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                </address>
+            </div>
             <!-- Перенес социалки и контакты в футер, добавил классы-->
           </div>
           </div>
         </footer>
       </div>
     </div>
-    </div>
-</body>
+    </body>
 </html>

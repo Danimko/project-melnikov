@@ -1,7 +1,25 @@
+.footer{
+  margin-top: auto;
+}
+
 .footer__container{
   height: 152px;
-  position: relative;
-
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__container--section{
+  margin-top: 0;
+  height: 132px;
+}
+.footer__col{
+  display: flex;
+  align-items: center;
+}
+.footer__col--align--right{
+  display: flex;
+  align-items: flex-end;
 }
 .contacts__text-footer{
   font-size: 11px;
@@ -10,10 +28,7 @@
 }
 
 .social{
-  display: inline-block;
-  position: absolute;
-  right: 200px;
-  left: 700px;
+  margin-right: 74px;
 }
 .social:last-child{
   margin-right: 0;
