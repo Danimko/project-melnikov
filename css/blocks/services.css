@@ -1,10 +1,13 @@
 .page-content{
   background:#fff;
   color: #303030;
-  padding: 40px 0;
+  padding: 40px 0 0 0;
 }
 
-.services{
+.page-content .container{
+  padding-bottom: 80px;
+}
+.services__list{
   display: flex;
   flex-direction: column;
   padding: 58px 0 0 0;
@@ -43,30 +46,31 @@
 
 }
 
-.inner-section{
+.services{
+  margin-bottom: 0;
+}
+.partners{
   background: #fff;
   color: #1A1B1E;
-  padding: 95px 0;
+  /* padding-bottom: 95px; */
   width: 100%;
   margin: 0 auto 0;
-}
-
-.inner-section--grey{
   background: #F4F5F5;
-
 }
 
-.inner-section__title{
+
+.partners__title{
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 75px;
+  padding-top: 100px;
 
 }
 
-.partners{
+.partners__list{
   display: flex;
   flex-wrap: wrap;
-  margin-left: -46px;
+  margin-left: -56px;
 }
 
 .partners__item{
