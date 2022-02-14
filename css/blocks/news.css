@@ -89,6 +89,7 @@ overflow: hidden;
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+  transition: all 0.3s
 }
 .pagination__item .pagination__link:hover{
   background: #fff;
