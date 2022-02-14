@@ -191,6 +191,9 @@
     font-weight: bold;
   }
   
+.dropdown__item:last-child {
+      font-weight: normal;
+  }
   .contacts__schedule {
     font-size: 13px;
     text-decoration: underline;
